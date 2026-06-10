@@ -1,0 +1,22 @@
+{
+  "cli": {
+    "version": ">= 10.0.0",
+    "appVersionSource": "local"
+  },
+  "build": {
+    "preview": {
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      },
+      "env": {
+        "EXPO_PUBLIC_FIREBASE_API_KEY": "AIzaSyByXg6Wit2-c381p1YNjkxKuTeIRLJ0EY8",
+        "EXPO_PUBLIC_FIREBASE_AUTH_DOMAIN": "majdoor-tracker-29b44.firebaseapp.com",
+        "EXPO_PUBLIC_FIREBASE_PROJECT_ID": "majdoor-tracker-29b44",
+        "EXPO_PUBLIC_FIREBASE_STORAGE_BUCKET": "majdoor-tracker-29b44.firebasestorage.app",
+        "EXPO_PUBLIC_FIREBASE_MESSAGING_SENDER_ID": "497691898424",
+        "EXPO_PUBLIC_FIREBASE_APP_ID": "1:497691898424:web:129f10645d6fc9bbbdaccd"
+      }
+    }
+  }
+}

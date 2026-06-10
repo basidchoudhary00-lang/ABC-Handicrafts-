@@ -1,0 +1,27 @@
+kind = "mobile"
+previewPath = "/"
+title = "Labor Tracker"
+version = "1.0.0"
+id = "artifacts/labor-tracker"
+router = "expo-domain"
+
+[[integratedSkills]]
+name = "expo"
+version = "1.0.0"
+
+[[services]]
+ensurePreviewReachable = "/status"
+name = "expo"
+paths = [ "/" ]
+localPort = 24109
+
+[services.development]
+run = "pnpm --filter @workspace/labor-tracker run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/labor-tracker", "run", "build" ]
+run = [ "pnpm", "--filter", "@workspace/labor-tracker", "run", "serve" ]
+
+[services.env]
+PORT = "24109"
+BASE_PATH = "/"
