@@ -10,8 +10,7 @@
       "env": {
         "NODE_ENV": "production",
         "EAS_SKIP_AUTO_FINGERPRINT": "1"
-      },
-      "newArchEnabled": true
+      }
     }
   }
 }
