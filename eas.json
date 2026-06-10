@@ -6,7 +6,9 @@
   "build": {
     "preview": {
       "node": "20.10.0",
-      "yarnArgs": ["--ignore-engines"],
+      "env": {
+        "YARN_OPTS": "--ignore-engines"
+      },
       "distribution": "internal",
       "android": {
         "buildType": "apk"
