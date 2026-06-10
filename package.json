@@ -48,6 +48,7 @@
     "zod": "latest",
     "zod-validation-error": "^3.4.0"
   },
+  "engines": { "node": ">=18.0.0" },
   "dependencies": {
     "expo-clipboard": "^8.0.8",
     "firebase": "^12.11.0"
